@@ -1,0 +1,233 @@
+body{
+	font-family: Trebuchet MS;
+	margin: 0;
+}
+div, p, form, input, a, span, button{
+	box-sizing: border-box;
+}
+ul, li{
+	display: block;
+}
+a{
+	display: block;
+}
+a, a:hover, a:active {
+	text-decoration: none;
+}
+.container{
+	width: 940px;
+}
+.header{
+	background: url(../лаб4-в9-assets/bk.png) no-repeat center center / cover;
+	height: 512px;
+}
+#logo{
+	padding-top: 26px;
+	padding-bottom: 65px;
+}
+.menu{
+	display: flex;
+}
+.menu-item{
+	margin-left: 35px;
+	padding-top: 35px;
+}
+.menu-item a{
+	font-size: 12px;
+	color: #e8e8e8;
+	font-weight: bold;
+	font-family: Verdana;
+}
+.menu-item a:hover{
+	color: #64aceb;
+}
+h1{
+	font-size: 24px;
+	font-family: Myriad Pro;
+	color: #ffffff;
+	font-weight: bold;
+}
+.headertext{
+	font-family: Trebuchet MS;
+	font-size: 12px;
+	color: #ffffff;
+	padding-top: 25px;
+	padding-bottom: 14px;
+}
+h2, h3{
+	font-family: Myriad Pro;
+	font-size: 22px;
+	font-weight: bold;
+	color: #424db9;
+	border-bottom: 7px solid #a2cdf3;
+	padding-bottom: 11px;
+	width: 160px
+}
+#img4{
+	margin-top: 10px;
+}
+.about{
+	margin-top: 82px;
+	height: 455px;
+}
+.work{
+	margin-top: 70px;
+}
+.lorem{
+	font-size: 12px;
+}
+.footer{
+	background-color: #0f3251;
+	height: 350px;
+	margin-top: 130px;
+}
+h5, h4{
+	font-size: 16px;
+	font-family: Myriad Pro;
+	color: #a2cdf3;
+	border-bottom: 1px solid #53697c;
+	padding-bottom: 20px;
+}
+h6{
+	font-size: 16px;
+	font-family: Myriad Pro;
+	color: #a2cdf3;
+}
+.foottext{
+	color: #bababa;
+	font-size: 12px;
+}
+.posting input{
+	border: none;
+	border-bottom: 1px solid #53697c;
+	color: #bab9b9;
+	font-family: Trebuchet MS;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+	background: transparent;
+	margin-bottom: 22px;
+	padding:0px 115px 9px 0px;
+	width: 280px;
+}
+.posting button{
+	border: none;
+	background: #cfb653;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 9px 20px 9px 13px;
+}
+#row0{
+	margin-bottom: 32px;
+}
+#row1{
+	margin-bottom: 32px;
+}
+#row2{
+	margin-top: 35px; 
+}
+h5{
+	margin-top: 13px;
+}
+
+
+#mainimg{
+	display: flex;
+}
+#slider{
+	justify-content: center;
+}
+.slick-dots {
+	margin: -20px;
+}
+.slick-dots li button{
+	border: 1px solid #214f81;
+	font-size: 15px;
+	background: transparent;
+	border-radius: 50%;
+	color: #000000;
+}
+/* ------ Media Queries ------ */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+    .posting input{
+    	width: 240px;
+    }
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+    .img{
+    	width:200px;
+    }
+    .secondimg{
+    	width: 110%;
+    }
+    .lorem{
+    	font-size: 10px;
+    }
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 520px;
+    }
+  	.img{
+    	width:230px;
+    }
+    #some{
+    	margin-top: 20px;
+    }
+    .menu-item{
+	margin-left: 20px;
+	}
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .menu{
+    	flex-direction: column; 
+    	text-align: right;	
+    }
+	#row00{
+		text-align: left;
+	}
+	.menu-item a{
+		font-size: 16px;
+	}
+	.header{
+		height: 780px;
+	}
+	.work {
+    	margin-top: 270px;
+	}
+	#img3{
+		margin-top: 20px;
+	}
+	.lorem{
+    	font-size: 13px;
+    }
+    .footer{
+    	height: 700px;
+    }
+    .secondimg {
+    	width: 100%;
+	}
+	.img{
+		width: 100%;
+	}
+	#row2{
+		text-align: center;
+	}
+}  
